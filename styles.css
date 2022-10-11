@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu";
+}
+
+
+.topnav{
+    background-color: #188080;
+    height: 80px ;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 7% ;
+    padding-right: 5%;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+a.active,a:hover{
+    background-color: rgb(31, 156, 156) ; 
+    transition: 0.5s;
+    padding: 7px 13px;
+    border-radius: 4px;
+
+
+}
