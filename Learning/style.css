@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.main{
+    background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%)
+    , url(bg1.jpg);
+    height: 109vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: transparent;
+
+    
+    
+}
+.navbar ul{
+    overflow: auto;
+    width: fit-content;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin-left: 10px ;
+    margin-right: 13px;
+    line-height: 40px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-family: Ubuntu;
+    font-size: 16px;
+}
+.navbar li a:hover{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(87, 86, 86, 0.2) ;
+    border-radius: 4px;
+    
+}
+
+
+
+.logo{
+
+    float:left;
+    line-height: 45px;
+    padding-left: 1%;
+    padding-right: 10%;
+}
+.log{
+    font-family: Ubuntu;
+    font-size: 30px;
+    color: grey;
+
+
+}
+
+
+
+#check{
+    display: none;
+}
+
+
+@media(max-width:414px){
+ 
+    .navbar{
+        background-color: (grey);
+    }
+
+    
+    .log{
+        font-size: 35px;
+
+    }
+
+
+
+}
